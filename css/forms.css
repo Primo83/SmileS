@@ -1,0 +1,147 @@
+/**********************************contact-form****************************/
+#form1 {
+	font-family: Arial, Helvetica, sans-serif  ;
+	font-size: 12px;
+	color:#646464 ;
+	padding-top: 6px;
+	padding-bottom:10px;
+	}
+#form1 input {
+	color:#646464; 
+	padding: 6px 0 8px 10px;
+	outline:none;
+	background:#f0f1ea ;
+	font-family: Arial, Helvetica, sans-serif  ; 
+	font-size: 12px; 
+	height: 32px; 
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	border: none;
+	box-sizing: border-box;
+	width: 220px; 
+	float:left; 
+	position:relative;  
+	border-radius: 5px; 
+	}
+#form1 textarea {
+	overflow:auto; 
+	width: 100%; 
+	height: 50px ;
+	resize:none; 
+	float:left;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	color:#646464 ; 
+	padding: 7px 0 0  11px;
+	background:#f0f1ea ;
+	font-family: Arial, Helvetica, sans-serif ; 
+	font-size: 12px; 
+	border-radius: 5px;
+    }	
+#form1 label{	
+	display:block; 
+	width: 220px;
+	min-height: 40px;
+	position:relative;
+	}
+#form1 label .feed_name{
+	display:block; 
+	float:left;
+	}	
+#form1 label.message {
+	display:block; 
+	padding-bottom:0;
+	width: 100%;
+	}	
+
+#form1 .buttons2{
+	position:relative;
+	padding: 14px 0 0 0 ;
+	float:right;
+	}
+#form1 .buttons2 .button{
+	min-width:10px !important;
+	display:inline-block;
+	padding: 11px 10px 11px 10px;
+	text-transform:uppercase;
+	border-radius: 3px;
+	font-size:12px;
+	}
+	#form1 .buttons2 .button strong{border-radius: 3px;}
+#form1 .buttons2 .button:hover{}
+#form1 .success {
+    background: none repeat scroll 0 0 #f6f6f5;
+    border: 1px solid #333333;
+    display: none;
+    height: 72px;
+	box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    position: absolute;
+    width: 220px;
+    z-index: 1;
+}
+
+#form1 .success .success_txt {
+    color: #000;
+    position: relative;
+    text-align: center;
+    top: 18%;
+}
+#form1 .error,
+#form1 .empty {
+	color:#f00;
+	font-size:10px;
+	line-height:1.25em;
+	display:none;
+	font-family:Arial, Helvetica, sans-serif;
+	overflow:hidden;
+	position:absolute;
+	right:3px;
+	top:2px;
+}
+#form1 .message .error,
+#form1 .message .empty  {
+	left: 4px;
+	right:auto;
+    top: 34px;
+}
+
+
+@media only screen and (max-width: 995px) {
+	#form1 input, #form1 textarea{width:100%;}
+	#form1 label.message {
+    width: 100%;
+}
+#form1 label {
+    width: 100%;
+}
+
+#form1 .success {
+    width: 100%;	
+}
+}
+
+ @media only screen and (max-width: 767px) {
+	 #form1 input, #form1 textarea{width:100%;}
+	
+#form1 label {
+    width: 100%;
+}
+
+#form1 .success {
+    width: 100%;	
+}
+	 }
+ 
+
+
+
+@media only screen and (max-width: 479px){
+
+	
+
+}

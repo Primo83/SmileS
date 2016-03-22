@@ -1,0 +1,32 @@
+div#sgCookiesPolicyBar {
+	width: 100%;
+	padding: 3px 0;
+	z-index: 9999;
+	border-top: 1px solid #ebebeb;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	background: #ebebeb;
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, color-stop(0%, #fbfbfb), color-stop(100%, #ebebeb));
+	background-image: -webkit-linear-gradient(#fbfbfb, #ebebeb);
+	background-image: -moz-linear-gradient(#fbfbfb, #ebebeb);
+	background-image: -o-linear-gradient(#fbfbfb, #ebebeb);
+	background-image: -ms-linear-gradient(#fbfbfb, #ebebeb);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#fbfbfb, endColorstr=#ebebeb);
+	background-image: linear-gradient(#fbfbfb, #ebebeb);
+}
+
+div#sgCookiesPolicyInformation {
+	width: 100%;
+	margin: 5px auto;
+	font-family: Arial;
+	color: #777777;
+	font-size: 12px;
+}
+
+div#sgCookiesPolicyInformation p {
+	float: right;
+	color: #ff0000;
+	cursor: pointer;
+	margin: 0;
+}

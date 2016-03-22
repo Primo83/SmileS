@@ -1,0 +1,564 @@
+/* CAROUSEL */
+.carousel {
+	position: relative;
+	height: 360px;
+	width: 980px;
+	overflow: hidden;
+}
+
+.carousel h4 {
+	color: #fff;
+}
+
+.carousel .backgrounds {
+	height: 360px;
+}
+
+.carousel .backgrounds .item {
+	width: 980px;
+	height: 360px;
+	float: left;
+	position: relative;
+	z-index: 1;
+}
+.carousel .backgrounds .item img {
+	width: 641px;
+}
+
+.carousel .panel {
+	background: url(../images/panel-bg2.jpg) no-repeat 0 0;
+	color: #fff;
+	position: absolute;
+	right: 0;
+	top: 0;
+	height: 360px;
+	width: 339px;
+	z-index: 10;
+}
+
+.carousel .panel .paging {
+	position: absolute;
+	bottom: 25px;
+	left: 25px;
+	width: 302px;
+	text-align: center;
+}
+
+.carousel .panel .paging a {
+	color: #4c4c4c;
+	font-size: 1.1em;
+}
+
+.carousel .panel .pause {
+	position: absolute;
+	right: 147px;
+	bottom: -22px;
+	width: 18px;
+	height: 18px;
+	overflow: hidden;
+	background: transparent url(../images/carousel_pause_bg.gif) no-repeat 0
+		0;
+	text-indent: -9999em;
+}
+
+.carousel .panel .play {
+	position: absolute;
+	right: 147px;
+	bottom: -22px;
+	display: block;
+	width: 18px;
+	height: 18px;
+	background: transparent url(../images/carousel_play_bg.gif) no-repeat 0
+		0;
+	text-indent: -6000px;
+}
+
+.carousel .panel .paging .next {
+	position: absolute;
+	right: 32px;
+	bottom: -7px;
+	display: block;
+	width: 80px;
+	height: 23px;
+	overflow: hidden;
+	background: url(../images/next.png) no-repeat 0 0;
+	text-indent: -9999em;
+}
+
+.carousel .panel .paging .next:hover {
+	background-position: 0 -23px;
+}
+
+.carousel .panel .paging .previous {
+	position: absolute;
+	left: 23px;
+	bottom: -7px;
+	display: block;
+	width: 80px;
+	height: 23px;
+	overflow: hidden;
+	background: url(../images/prev.png) no-repeat 0 0;
+	text-indent: -9999em;
+}
+
+.carousel .panel .paging .previous:hover {
+	background-position: 0 -23px;
+}
+
+.carousel .panel .paging #numbers {
+	left: 38%;
+	position: relative;
+	zoom: 1;
+}
+
+.carousel .panel .paging #numbers a {
+	background: url(../images/bull-1.gif) no-repeat 0 0;
+	float: left;
+	width: 10px;
+	height: 10px;
+	overflow: hidden;
+	font-size: 0;
+	line-height: 0;
+	text-indent: -9999em;
+	margin-right: 7px;
+}
+
+.carousel .panel .paging #numbers a:hover {
+	background: url(../images/bull-2.gif) no-repeat 0 0;
+}
+
+.carousel .panel .paging #numbers a.selected {
+	background: url(../images/bull-2.gif) no-repeat 0 0;
+}
+
+.carousel .panel .details_wrapper {
+	position: absolute;
+	top: 53px;
+	left: 22px;
+	width: 292px;
+	overflow: hidden;
+	height: 270px;
+}
+
+.carousel .panel .details_wrapper .details {
+	height: 280px;
+}
+
+.carousel .panel .details_wrapper .details .detail {
+	width: 292px;
+	height: 270px;
+	float: left;
+	/*color:#a7afb4;*/
+}
+
+.carousel .panel .details_wrapper333 {
+	position: absolute;
+	top: 23px;
+	left: 22px;
+	width: 292px;
+	overflow: hidden;
+	height: 300px;
+}
+
+.carousel .panel .details_wrapper333 .details {
+	height: 300px;
+}
+
+.carousel .panel .details_wrapper333 .details .detail {
+	width: 292px;
+	height: 300px;
+	float: left;
+	/*color:#a7afb4;*/
+}
+
+.carousel .panel .details_wrapper .details h2 {
+	font-size: 20px;
+	line-height: 28px;
+	color: #FF6;
+	font-weight: normal;
+	font-style: normal;
+	margin-bottom: 12px;
+}
+
+.carousel .panel .details_wrapper .details p {
+	margin-bottom: 10px;
+	color: #FFF;
+}
+
+.carousel .panel .details_wrapper .details a.more {
+	color: #fff;
+	font-size: 14px;
+	font-style: italic;
+}
+
+/******************** Responsive ******************/
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+}
+
+@media only screen and (max-width: 995px) {
+	
+
+.carousel {
+  position: relative;
+  height: 283px;
+  width: 768px;
+  overflow: hidden;
+}	
+
+.carousel h4 {
+	color: #fff;
+}
+
+.carousel .backgrounds {
+	height: 283px;
+}
+
+.carousel .backgrounds .item {
+	width: 768px;
+	height: 283px;
+	float: left;
+	position: relative;
+	z-index: 1;
+}
+.carousel .backgrounds .item img {
+	width: 504px;
+}
+
+.carousel .panel {
+	background: url(../images/panel-bg2.jpg) no-repeat 0 0;
+	color: #fff;
+	position: absolute;
+	right: 0;
+	top: 0;
+	height: 283px;
+	width: 266px;
+	z-index: 10;
+}
+
+.carousel .panel .paging {
+	position: absolute;
+	bottom: 25px;
+	left: 25px;
+	width: 266px;
+	text-align: center;
+}
+
+.carousel .panel .paging a {
+	color: #4c4c4c;
+	font-size: 1.1em;
+}
+
+.carousel .panel .pause {
+	position: absolute;
+	right: 147px;
+	bottom: -22px;
+	width: 18px;
+	height: 18px;
+	overflow: hidden;
+	background: transparent url(../images/carousel_pause_bg.gif) no-repeat 0
+		0;
+	text-indent: -9999em;
+}
+
+.carousel .panel .play {
+	position: absolute;
+	right: 147px;
+	bottom: -22px;
+	display: block;
+	width: 18px;
+	height: 18px;
+	background: transparent url(../images/carousel_play_bg.gif) no-repeat 0
+		0;
+	text-indent: -6000px;
+}
+
+.carousel .panel .paging .next {
+	position: absolute;
+	right: 32px;
+	bottom: -7px;
+	display: block;
+	width: 80px;
+	height: 23px;
+	overflow: hidden;
+	background: url(../images/next.png) no-repeat 0 0;
+	text-indent: -9999em;
+}
+
+.carousel .panel .paging .next:hover {
+	background-position: 0 -23px;
+}
+
+.carousel .panel .paging .previous {
+	position: absolute;
+	left: -8px;
+	bottom: -7px;
+	display: block;
+	width: 80px;
+	height: 23px;
+	overflow: hidden;
+	background: url(../images/prev.png) no-repeat 0 0;
+	text-indent: -9999em;
+}
+
+.carousel .panel .paging .previous:hover {
+	background-position: 0 -23px;
+}
+
+.carousel .panel .paging #numbers {
+	left: 29%;
+	position: relative;
+	zoom: 1;
+}
+
+.carousel .panel .paging #numbers a {
+	background: url(../images/bull-1.gif) no-repeat 0 0;
+	float: left;
+	width: 10px;
+	height: 10px;
+	overflow: hidden;
+	font-size: 0;
+	line-height: 0;
+	text-indent: -9999em;
+	margin-right: 7px;
+}
+
+.carousel .panel .paging #numbers a:hover {
+	background: url(../images/bull-2.gif) no-repeat 0 0;
+}
+
+.carousel .panel .paging #numbers a.selected {
+	background: url(../images/bull-2.gif) no-repeat 0 0;
+}
+
+.carousel .panel .details_wrapper {
+	position: absolute;
+	top: 23px;
+	left: 22px;
+	width: 230px;
+	overflow: hidden;
+	height: 270px;
+}
+
+.carousel .panel .details_wrapper .details {
+	height: 220px;
+}
+
+.carousel .panel .details_wrapper .details .detail {
+	width: 230px;
+	height: 210px;
+	float: left;
+	/*color:#a7afb4;*/
+}
+
+
+
+.carousel .panel .details_wrapper .details h2 {
+	font-size: 16px;
+	line-height: 18px;
+	color: #FF6;
+	font-weight: normal;
+	font-style: normal;
+	margin-bottom: 12px;
+}
+
+
+.carousel .panel .details_wrapper .details a.more {
+	color: #fff;
+	font-size: 14px;
+	font-style: italic;
+}
+	
+}
+
+@media only screen and (max-width: 800px) {
+}
+
+@media only screen and (max-width: 767px) {
+}
+
+
+
+
+
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+	.carousel {
+  position: relative;
+  height: 236px;
+  width: 686px;
+  overflow: hidden;
+}	
+
+.carousel h4 {
+	color: #fff;
+}
+
+.carousel .backgrounds {
+	height: 236px;
+}
+
+.carousel .backgrounds .item {
+	width: 686px;
+	height: 236px;
+	float: left;
+	position: relative;
+	z-index: 1;
+}
+.carousel .backgrounds .item img {
+	width: 420px;
+}
+
+.carousel .panel {
+	background: url(../images/panel-bg2.jpg) no-repeat 0 0;
+	color: #fff;
+	position: absolute;
+	right: 0;
+	top: 0;
+	height: 236px;
+	width: 266px;
+	z-index: 10;
+}
+
+.carousel .panel .paging {
+	position: absolute;
+	bottom: 25px;
+	left: 25px;
+	width: 266px;
+	text-align: center;
+}
+
+.carousel .panel .paging a {
+	color: #4c4c4c;
+	font-size: 1.1em;
+}
+
+.carousel .panel .pause {
+	position: absolute;
+	right: 147px;
+	bottom: -22px;
+	width: 18px;
+	height: 18px;
+	overflow: hidden;
+	background: transparent url(../images/carousel_pause_bg.gif) no-repeat 0
+		0;
+	text-indent: -9999em;
+}
+
+.carousel .panel .play {
+	position: absolute;
+	right: 147px;
+	bottom: -22px;
+	display: block;
+	width: 18px;
+	height: 18px;
+	background: transparent url(../images/carousel_play_bg.gif) no-repeat 0
+		0;
+	text-indent: -6000px;
+}
+
+.carousel .panel .paging .next {
+	position: absolute;
+	right: 32px;
+	bottom: -7px;
+	display: block;
+	width: 80px;
+	height: 23px;
+	overflow: hidden;
+	background: url(../images/next.png) no-repeat 0 0;
+	text-indent: -9999em;
+}
+
+.carousel .panel .paging .next:hover {
+	background-position: 0 -23px;
+}
+
+.carousel .panel .paging .previous {
+	position: absolute;
+	left: -8px;
+	bottom: -7px;
+	display: block;
+	width: 80px;
+	height: 23px;
+	overflow: hidden;
+	background: url(../images/prev.png) no-repeat 0 0;
+	text-indent: -9999em;
+}
+
+.carousel .panel .paging .previous:hover {
+	background-position: 0 -23px;
+}
+
+.carousel .panel .paging #numbers {
+	left: 29%;
+	position: relative;
+	zoom: 1;
+}
+
+.carousel .panel .paging #numbers a {
+	background: url(../images/bull-1.gif) no-repeat 0 0;
+	float: left;
+	width: 10px;
+	height: 10px;
+	overflow: hidden;
+	font-size: 0;
+	line-height: 0;
+	text-indent: -9999em;
+	margin-right: 7px;
+}
+
+.carousel .panel .paging #numbers a:hover {
+	background: url(../images/bull-2.gif) no-repeat 0 0;
+}
+
+.carousel .panel .paging #numbers a.selected {
+	background: url(../images/bull-2.gif) no-repeat 0 0;
+}
+
+.carousel .panel .details_wrapper {
+	position: absolute;
+	top: 8px;
+	left: 12px;
+	width: 256px;
+	overflow: hidden;
+	height: 270px;
+}
+
+.carousel .panel .details_wrapper .details {
+	height: 220px;
+}
+
+.carousel .panel .details_wrapper .details .detail {
+	width: 256px;
+	height: 210px;
+	float: left;
+	/*color:#a7afb4;*/
+}
+
+
+
+.carousel .panel .details_wrapper .details h2 {
+	font-size: 13px;
+	line-height: 13px;
+	color: #FF6;
+	font-weight: normal;
+	font-style: normal;
+	margin-bottom: 12px;
+}
+.carousel .panel .details_wrapper .details p {
+	font-size: 11px;
+}
+
+.carousel .panel .details_wrapper .details a.more {
+	color: #fff;
+	font-size: 14px;
+	font-style: italic;
+}
+	
+	
+}
+
+@media only screen and (max-width: 479px) {
+}
+
+/* END CAROUSEL */

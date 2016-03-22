@@ -1,0 +1,299 @@
+/*=======================superfish=========================*/
+nav{
+	float:right;
+	display:inline-block;
+	
+	margin:5px 0 0 0;
+	
+	}
+.sf-menu{display:block;}
+.sf-menu ul {position:absolute; top:-999px; display:none; z-index:999;}
+.sf-menu a {display:block;}
+.sf-menu li:hover ul,.sf-menu li.sfHover ul {z-index:999;}
+ul.sf-menu li:hover li ul,ul.sf-menu li.sfHover li ul {top:-999px; display:none;z-index:999}
+ul.sf-menu li li:hover ul,ul.sf-menu li li.sfHover ul {left:100%; top:0;z-index:999}
+ul.sf-menu>li{
+  background: url(../images/bg-li.png) left 0 no-repeat;
+  font-family: 'Oswald', sans-serif;
+  font-size: 14px;
+  line-height:18px; 
+  float:left; 
+  text-transform:uppercase;
+  position:relative;
+  }
+ ul.sf-menu>li:first-child{background: url(../images/bg-li-transparent.png) 0 0 no-repeat;}
+ul.sf-menu>li>a{
+	display:block;
+	position:relative;
+	padding:22px 25px 24px 24px;  
+	color:#9b9b9b ;
+	}
+ul.sf-menu>li.current , ul.sf-menu>li.sfHover , ul.sf-menu>li:hover {background: url(../images/bg-li-hov.jpg) 0 0 repeat-x #609d3e;}
+ul.sf-menu>li.current>a, ul.sf-menu>li.sfHover>a, ul.sf-menu>li>a:hover{color:#fff;}
+
+.sf-menu>li>ul{
+	left:0px;
+	top:64px;
+	width:  122px;
+	padding:10px 0 10px 0; 
+	z-index:99;
+	background:#6aac2a ; 
+	}
+.sf-menu>li>ul>li {
+	 font-size: 12px; 
+	 font-family: 'Oswald', sans-serif;
+	 line-height:16px;
+	 display:block;
+	 padding:7px 0 7px 18px;
+	 position:relative;
+     }
+.sf-menu>li>ul>li:first-child{}
+							
+.sf-menu>li>ul>li>a {
+	display: inline-block;
+	color:#ffffff ;
+	}
+.sf-menu>li>ul>li:hover, ul.sf-menu>li>ul>li.sfHover{}
+.sf-menu>li>ul>li>a:hover, ul.sf-menu>li>ul>li.sfHover a {color:#bf14cd;}
+
+.sf-menu li li ul {
+	 left: 122px !important;
+	 top:10px !important;
+	 display:block;
+	 width: 122px;
+	 background:#51922c;
+	 padding: 10px 0 10px 0;
+	 }
+.sf-menu li li li {
+	float:none;
+	font-size: 12px; 
+	 font-family: 'Oswald', sans-serif;
+	 line-height:16px;
+	 display:block;
+	 padding:7px 0 7px 18px;
+	 position:relative;
+	}
+					
+.sf-menu li li li a {
+	display: inline-block;
+	color:#ffffff !important;
+	}
+.sf-menu li li li:hover {}
+.sf-menu li li li a:hover {color:#bf14cd !important;}
+
+.sf-menu li.sub-menu:after {
+    background: url("../images/indicator.png") no-repeat scroll 0 0 transparent;
+    content: "";
+    display: block;
+    height: 4px;
+    margin-top: -1px;
+    position: absolute;
+    right: 48%;
+    top: 73%;
+    width: 5px;
+}
+
+
+.sf-menu ul li.sub-menu:after {	
+	right: 12px;
+    top: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+nav2{
+	float:right;
+	display:inline-block;
+	background: url(../images/bg-nav.jpg) 0 0 repeat-x #fcfcfc;
+	margin:49px 0 0 0;
+	border-right:1px solid #dddddd;
+	border-left:1px solid #dddddd;
+	}
+.sf-menu2{display:block;}
+.sf-menu2 ul {position:absolute; top:-999px; display:none; z-index:999;}
+.sf-menu2 a {display:block;}
+.sf-menu2 li:hover ul,.sf-menu2 li.sfHover ul {z-index:999;}
+ul.sf-menu2 li:hover li ul,ul.sf-menu2 li.sfHover li ul {top:-999px; display:none;z-index:999}
+ul.sf-menu2 li li:hover ul,ul.sf-menu2 li li.sfHover ul {left:100%; top:0;z-index:999}
+ul.sf-menu2>li{
+  background: url(../images/bg-li.png) left 0 no-repeat;
+  font-family: 'Oswald', sans-serif;
+  font-size: 14px;
+  line-height:18px; 
+  float:left; 
+  text-transform:uppercase;
+  position:relative;
+  }
+ ul.sf-menu2>li:first-child{background: url(../images/bg-li-transparent.png) 0 0 no-repeat;}
+ul.sf-menu2>li>a{
+	display:block;
+	position:relative;
+	padding:22px 25px 24px 24px;  
+	color:#9b9b9b ;
+	}
+ul.sf-menu2>li.current2 , ul.sf-menu2>li.sfHover , ul.sf-menu2>li:hover {background: url(../images/bg-li-hov.jpg) 0 0 repeat-x #609d3e;}
+ul.sf-menu2>li.current2>a, ul.sf-menu2>li.sfHover>a, ul.sf-menu2>li>a:hover{color:#fff;}
+
+.sf-menu2>li>ul{
+	left:0px;
+	top:64px;
+	width:  122px;
+	padding:10px 0 10px 0; 
+	z-index:99;
+	background:#6aac2a ; 
+	}
+.sf-menu2>li>ul>li {
+	 font-size: 12px; 
+	 font-family: 'Oswald', sans-serif;
+	 line-height:16px;
+	 display:block;
+	 padding:7px 0 7px 18px;
+	 position:relative;
+     }
+.sf-menu2>li>ul>li:first-child{}
+							
+.sf-menu2>li>ul>li>a {
+	display: inline-block;
+	color:#ffffff ;
+	}
+.sf-menu2>li>ul>li:hover, ul.sf-menu2>li>ul>li.sfHover{}
+.sf-menu2>li>ul>li>a:hover, ul.sf-menu2>li>ul>li.sfHover a {color:#bf14cd;}
+
+.sf-menu2 li li ul {
+	 left: 122px !important;
+	 top:10px !important;
+	 display:block;
+	 width: 122px;
+	 background:#51922c;
+	 padding: 10px 0 10px 0;
+	 }
+.sf-menu2 li li li {
+	float:none;
+	font-size: 12px; 
+	 font-family: 'Oswald', sans-serif;
+	 line-height:16px;
+	 display:block;
+	 padding:7px 0 7px 18px;
+	 position:relative;
+	}
+					
+.sf-menu2 li li li a {
+	display: inline-block;
+	color:#ffffff !important;
+	}
+.sf-menu2 li li li:hover {}
+.sf-menu2 li li li a:hover {color:#bf14cd !important;}
+
+.sf-menu2 li.sub-menu:after {
+    background: url("../images/indicator.png") no-repeat scroll 0 0 transparent;
+    content: "";
+    display: block;
+    height: 4px;
+    margin-top: -1px;
+    position: absolute;
+    right: 48%;
+    top: 73%;
+    width: 5px;
+}
+
+
+.sf-menu2 ul li.sub-menu:after {	
+	right: 12px;
+    top: 14px;
+}
+
+
+
+
+
+.naviii{
+	float:right;
+	display:inline-block;
+	background: url(../images/bg-nav.jpg) 0 0 repeat-x #fcfcfc;
+	margin:49px 0 0 0;
+	border-right:1px solid #dddddd;
+	border-left:1px solid #dddddd;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Design for a width of 768px */
+@media only screen and (max-width: 995px) {
+
+	
+}
+
+
+
+
+@media only screen and (max-width: 767px) {
+
+
+nav select {
+    display: block !important;
+    height: 23px;
+    line-height: 23px;
+    border: 1px solid #000;
+    outline: medium none;
+    padding: 0;
+    width: 100%;
+}
+
+nav span,
+.sf-menu{display:none}
+
+
+
+
+
+
+nav2 select {
+    display: block !important;
+    height: 23px;
+    line-height: 23px;
+    border: 1px solid #000;
+    outline: medium none;
+    padding: 0;
+    width: 100%;
+}
+
+nav2 span,
+.sf-menu2{display:none}
+
+
+
+
+
+
+
+
+
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {	
+nav span,
+.sf-menu{display:none}
+ 
+ nav2 span,
+.sf-menu2{display:none}
+ 
+}

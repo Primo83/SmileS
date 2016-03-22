@@ -1,0 +1,9 @@
+*+html{overflow:auto;}
+.button-1, .button, #form1 input, #form1 textarea{behavior:url(js/PIE.htc); position:relative;}
+.button-1 strong, .button strong{display:none;}
+.button-1:hover, .button:hover{background:#a111ad;}
+.button-1{padding: 10px 18px 10px 18px;}
+.button{padding: 11px 9px 11px 9px;}
+#form1 .buttons2 .button{padding: 11px 12px 11px 12px;}
+#form1 input {padding: 7px 0 7px 10px;}
+#form1 textarea{}

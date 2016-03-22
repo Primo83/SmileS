@@ -1,0 +1,270 @@
+/*======= index.html =======*/
+#page1 #content .col-1 {width:600px; margin-right:27px;}
+#page1 #content .col-2 {width:235px;}
+#page1 #content .top-info .col-1 {width:220px; margin-right:0;}
+#page1 #content .top-info .col-2 {width:220px;}
+#page1 #content .top-info .col-3 {width:220px;}
+#page1 #content .top-info .col-4 {width:220px;}
+
+/*======= o_firmie.php =======*/
+#page2 #content .col-1 {width:235px; margin-right:17px;}
+#page2 #content .col-2 {width:728px;}
+#page2 #content .col-2 .col-3 {width:235px; margin-right:17px;}
+#page2 #content .col-2 .col-4 {width:235px; margin-right:6px;}
+#page2 #content .col-2 .col-7 {width:235px;}
+#page2 #content .col-2 .col-8 {width:476px; margin-right:17px;}
+#page2 #content .top-info .col-5 {width:450px;}
+#page2 #content .top-info .col-6 {width:450px;}
+
+/*======= cennik.php =======*/
+#page3 #content .col-1 {width:909; margin-right:49px; }
+#page3 #content .col-2 {width:1px;}
+#page3 #content .top-info .col-1 {width:204px; margin-right:0;}
+#page3 #content .top-info .col-2 {width:204px;}
+#page3 #content .top-info .col-3 {width:294px;}
+#page3 #content .top-info .col-4 {width:273px;}
+#page3 #content .top-info .col-4 img{width:100%;}
+#page3 #content .top-info .col-5 {width:454px;  margin-right:30px;}
+#page3 #content .top-info .col-6 {width:454px;}
+#page3 #content .col-7 {width:50px;}
+#page3 #content .col-8 {width:100px;}
+#page3 #content .col-9 {width:980px; }
+
+/*======= warunki.php =======*/
+#page6 #content .col-1 {width:359px; margin-right:25px;}
+#page6 #content .col-2 {width:596px; margin-bottom:10px}
+#page6 #content .col-2 .col-1 {width:278px; margin-right:41px;}
+#page6 #content .col-2 .col-2 {width:272px;}
+#page6 #content .top-info .col-5 {width:440px;}
+#page6 #content .top-info .col-6 {width:440px;}
+
+/*======= o_firmie.php =======*/
+#page7 #content .col-1 {width:348px; margin-right:30px;}
+#page7 #content .col-2 {width:602px;}
+#page7 #content .col-2 iframe {width:602px;}
+#page7 #content .col-2 .col-1 {width:278px; margin-right:41px;}
+#page7 #content .col-2 .col-2 {width:272px;}
+#page7 #content .top-info .col-5 {width:440px;}
+#page7 #content .top-info .col-6 {width:440px;}
+
+
+/*======= index-3.html =======*/
+#page4 #content .col-1 {width:235px; margin-right:49px;}
+#page4 #content .col-2 {width:610px;}
+#page4 #content .col-2 .col-1 {width:278px; margin-right:41px;}
+#page4 #content .col-2 .col-2 {width:272px;}
+
+/*======= index-4.html =======*/
+#page5 #content .col-1 {width:235px; margin-right:49px;}
+#page5 #content .col-2 {width:610px;}
+#page5 #content .col-2 .col-1 {width:278px; margin-right:41px;}
+#page5 #content .col-2 .col-2 {width:272px;}
+
+/*=========================*/
+/*======= opinie.php =======*/
+#page8 #content .col-1 {width:1px; margin-right:1px;}
+#page8 #content .col-2 {width: 600px;}
+#page8 #content .col-2 .col-1 {width:278px; margin-right:41px;}
+#page8 #content .col-2 .col-2 {width:272px;}
+#page8 #content .top-info .col-5 {width:440px;}
+#page8 #content .top-info .col-6 {width:440px;}
+
+
+/*======= flota.php =======*/
+#page9 #content .col-1 {width:195px; }
+#page9 #content .col-2 {width:785px; margin-bottom:10px}
+#page9 #content .col-2 .col-1 {width:385px; margin-right:0px;}
+#page9 #content .col-2 .col-2 {width:400px;}
+#page9 #content .top-info .col-5 {width:440px;}
+#page9 #content .top-info .col-6 {width:440px;}
+
+/*======= kontakt.php =======*/
+#page10 #content .col-1 {width:359px; margin-right:25px;}
+#page10 #content .col-2 {width:596px; margin-bottom:10px}
+#page10 #content .col-2 .col-1 {width:278px; margin-right:41px;}
+#page10 #content .col-2 .col-2 {width:272px;}
+#page10 #content .top-info .col-5 {width:440px;}
+#page10 #content .top-info .col-6 {width:440px;}
+
+
+
+
+@media only screen and (max-width: 995px) {
+	/* Note: Design for a width of 768px */
+	
+	/*======= cennik.php =======*/
+#page3 #content .col-1 {width:909; margin-right:49px; }
+#page3 #content .col-2 {width:1px;}
+#page3 #content .top-info .col-1 {width:159px; margin-right:0;}
+#page3 #content .top-info .col-2 {width:159px;}
+#page3 #content .top-info .col-3 {width:229px;}
+#page3 #content .top-info .col-4 {width:213px;}
+#page3 #content .top-info .col-5 {width:354px;  margin-right:13px;}
+#page3 #content .top-info .col-6 {width:354px;}
+#page3 #content .col-7 {width:50px;}
+#page3 #content .col-8 {width:100px;}
+#page3 #content .col-9 {width:768px; }
+
+
+/*======= kontakt.php =======*/
+#page10 #content .col-1 {width:359px; margin-right:25px;}
+#page10 #content .col-2 {width:384px; margin-bottom:10px}
+#page10 #content .col-2 .col-1 {width:278px; margin-right:41px;}
+#page10 #content .col-2 .col-2 {width:272px;}
+#page10 #content .top-info .col-5 {width:440px;}
+#page10 #content .top-info .col-6 {width:440px;}
+
+
+/*======= warunki.php =======*/
+#page6 #content .col-1 {width:359px; margin-right:25px;}
+#page6 #content .col-2 {width:596px; margin-bottom:10px}
+#page6 #content .col-2 .col-1 {width:278px; margin-right:41px;}
+#page6 #content .col-2 .col-2 {width:272px;}
+#page6 #content .top-info .col-5 {width:440px;}
+#page6 #content .top-info .col-6 {width:440px;}
+
+
+/*======= o_firmie.php =======*/
+#page7 #content .col-1 {width:274px; margin-right:23px;}
+#page7 #content .col-2 {width:471px;}
+#page7 #content .col-2 iframe {width:471px;}
+#page7 #content .col-2 .col-1 {width:278px; margin-right:41px;}
+#page7 #content .col-2 .col-2 {width:272px;}
+#page7 #content .top-info .col-5 {width:440px;}
+#page7 #content .top-info .col-6 {width:440px;}
+
+
+/*======= opinie.php =======*/
+
+#page8 #content .col-2 {width: 450px;}
+
+
+/*======= flota.php =======*/
+#page9 #content .col-1 {width:170px; }
+#page9 #content .col-2 {width:598px; margin-bottom:10px}
+#page9 #content .col-2 img {width:100%;}
+#page9 #content .col-2 .col-1 {width:301px; margin-right:0px;}
+#page9 #content .col-2 .col-2 {width:297px;}
+#page9 #content .top-info .col-5 {width:440px;}
+#page9 #content .top-info .col-6 {width:440px;}
+
+
+}
+
+
+
+
+/*  #Mobile (Landscape)
+================================================== */
+
+	/* Note: Design for a width of 480px */
+	@media only screen and (max-width: 767px) {
+		/*======= cennik.php =======*/
+#page3 #content .col-1 {width:909; margin-right:49px; }
+#page3 #content .col-2 {width:1px;}
+#page3 #content .top-info .col-1 {width:208px; margin-right:0;}
+#page3 #content .top-info .col-2 {width:208px;}
+#page3 #content .top-info .col-3 {width:208px;}
+#page3 #content .top-info .col-4 {width:208px;}
+#page3 #content .top-info .col-5 {width:390px;  margin-right:0px;}
+#page3 #content .top-info .col-6 {width:390px;}
+#page3 #content .col-7 {width:50px;}
+#page3 #content .col-8 {width:100px;}
+#page3 #content .col-9 {width:420px;}
+
+/*======= o_firmie.php =======*/
+#page7 #content .col-1 {width:420px; margin-right:0px;}
+#page7 #content .col-2 {width:420px;}
+#page7 #content .col-2 iframe {width:420px;}
+#page7 #content .col-2 .col-1 {width:278px; margin-right:41px;}
+#page7 #content .col-2 .col-2 {width:272px;}
+#page7 #content .top-info .col-5 {width:440px;}
+#page7 #content .top-info .col-6 {width:440px;}
+
+	
+	
+/*======= kontakt.php =======*/
+#page10 #content .col-1 {width:420px; margin-right:0px;}
+#page10 #content .col-2 {width:420px; margin-bottom:10px}
+#page10 #content .col-2 .col-1 {width:278px; margin-right:41px;}
+#page10 #content .col-2 .col-2 {width:272px;}
+#page10 #content .top-info .col-5 {width:440px;}
+#page10 #content .top-info .col-6 {width:440px;}
+	
+	
+/*======= warunki.php =======*/
+#page6 #content .col-1 {width:359px; margin-right:25px;}
+#page6 #content .col-2 {width:420px; margin-bottom:10px}
+#page6 #content .col-2 .col-1 {width:278px; margin-right:41px;}
+#page6 #content .col-2 .col-2 {width:272px;}
+#page6 #content .top-info .col-5 {width:440px;}
+#page6 #content .top-info .col-6 {width:440px;}	
+	
+#page8 #content .col-2 {width: 400px;}	
+
+
+/*======= flota.php =======*/
+#page9 #content .col-1 {width:170px; }
+#page9 #content .col-2 {width:420px; margin-bottom:10px}
+#page9 #content .col-2 img {width:100%;}
+#page9 #content .col-2 .col-1 {width:420px; margin-right:0px;}
+#page9 #content .col-2 .col-2 {width:420px;}
+#page9 #content .top-info .col-5 {width:440px;}
+#page9 #content .top-info .col-6 {width:440px;}	
+	}
+
+/* Note: Design for a width of 320px */
+	@media only screen and (max-width: 479px) {
+		
+		#page3 #content .col-1 {width:909; margin-right:49px; }
+#page3 #content .col-2 {width:1px;}
+#page3 #content .top-info .col-1 {width:100%; margin-right:0;}
+#page3 #content .top-info .col-2 {width:100%;}
+#page3 #content .top-info .col-3 {width:100%;}
+#page3 #content .top-info .col-4 {width:100%;}
+#page3 #content .top-info .col-5 {width:100%;  margin-right:0px;}
+#page3 #content .top-info .col-6 {width:100%;}
+#page3 #content .col-7 {width:50px;}
+#page3 #content .col-8 {width:100px;}
+#page3 #content .col-9 {width:100%;}
+		
+
+/*======= o_firmie.php =======*/
+#page7 #content .col-1 {width:300px; margin-right:0px;}
+#page7 #content .col-2 {width:300px;}
+#page7 #content .col-2 iframe {width:300px;}
+#page7 #content .col-2 .col-1 {width:278px; margin-right:41px;}
+#page7 #content .col-2 .col-2 {width:272px;}
+#page7 #content .top-info .col-5 {width:440px;}
+#page7 #content .top-info .col-6 {width:440px;}
+
+/*======= flota.php =======*/
+#page9 #content .col-1 {width:100%; }
+#page9 #content .col-2 {width:100%; margin-bottom:10px}
+#page9 #content .col-2 img {width:100%;}
+#page9 #content .col-2 .col-1 {width:100%; margin-right:0px;}
+#page9 #content .col-2 .col-2 {width:100%;}
+#page9 #content .top-info .col-5 {width:440px;}
+#page9 #content .top-info .col-6 {width:440px;}
+
+	
+/*======= kontakt.php =======*/
+#page10 #content .col-1 {width:100%; margin-right:0px;}
+#page10 #content .col-2 {width:100%; margin-bottom:10px}
+#page10 #content .col-2 .col-1 {width:278px; margin-right:41px;}
+#page10 #content .col-2 .col-2 {width:272px;}
+#page10 #content .top-info .col-5 {width:440px;}
+#page10 #content .top-info .col-6 {width:440px;}
+	
+	
+/*======= warunki.php =======*/
+#page6 #content .col-1 {width:100%; margin-right:0px;}
+#page6 #content .col-2 {width:100%; margin-bottom:10px}
+#page6 #content .col-2 .col-1 {width:278px; margin-right:41px;}
+#page6 #content .col-2 .col-2 {width:272px;}
+#page6 #content .top-info .col-5 {width:440px;}
+#page6 #content .top-info .col-6 {width:440px;}
+
+
+#page8 #content .col-2 {width: 280px;}	
+		}

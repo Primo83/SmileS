@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: /dori/
+Disallow: /eksperymentalna/
+Disallow: /karo/
+Disallow: /bobasy/
+Disallow: /bobasy2/
+Disallow: /cli/
+Disallow: /kopie bezpieczenstwa/
+Disallow: /smileschool/
+Sitemap: http://www.smileschool.pl/sitemap.xml
